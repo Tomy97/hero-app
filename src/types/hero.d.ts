@@ -1,7 +1,8 @@
 export type IData = {
   response: string
   results: IHero[]
-  resultsFor: string
+  'results-for': string
+  heroes?: IHero[]
 }
 
 export type IHero = {
@@ -21,22 +22,22 @@ export type Appearance = {
   race: string
   height: string[]
   weight: string[]
-  eyeColor: string
+  'eye-color': string
   hairColor: string
 }
 
 export type Biography = {
-  fullName: string
-  alterEgos: string
+  'full-name': string
+  'alter-egos': string
   aliases: string[]
-  placeOfBirth: string
-  firstAppearance: string
+  'place-of-birth': string
+  'first-appearance': string
   publisher: string
   alignment: string
 }
 
 export type Connections = {
-  groupAffiliation: string
+  'group-affiliation': string
   relatives: string
 }
 

@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "email": "challenge@alkemy.org",
+      "password": "react"
+    },
+    {
+      "email": "pepito@alkemy.org",
+      "password": "pepito"
+    }
+  ]
+}
